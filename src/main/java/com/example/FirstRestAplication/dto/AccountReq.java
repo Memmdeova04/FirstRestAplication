@@ -10,7 +10,6 @@ import java.time.LocalDate;
 public class AccountReq {
     @NotNull
     Long userId;
-    //@CreditCardNumber
     @NotBlank
     @Pattern(regexp ="^\\d{16}$")
     String creditCardNumber;
